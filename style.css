@@ -180,6 +180,8 @@ body {
     display: flex;
     height: 100px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
   
 .footer a {
@@ -211,27 +213,9 @@ body {
 ::placeholder {
     color: white;
 }
-.carousel::-webkit-scrollbar{
+/* .carousel::-webkit-scrollbar{
     display: none;
-}
-
-.footer {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    background-color: #8f57fd;
-}
-.footer a {
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    padding-left: 30px;
-    text-decoration: none;   
-}
-.footer a:hover {
-    text-decoration: underline;   
-}
+} */
 
 @media only screen and (max-width: 600px) {
     .main__description--title {
